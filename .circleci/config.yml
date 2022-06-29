@@ -36,7 +36,7 @@ jobs:
       - restore_cache:
           keys:
             - "npm-packages"
-      - run: npm run audit
+      - run: npm audit
 
 workflows:
   pipeline-workflow:
